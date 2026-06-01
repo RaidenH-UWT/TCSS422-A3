@@ -6,4 +6,4 @@
 ### To run
 - Remove old module: `sudo rmmod ./[moduleName].ko`
 - Install new module: `sudo insmod ./[moduleName].ko`
-- View output: `sudo tail -fn 50 /var/log/messages`
+- View output: `sudo tail -fn 50 /var/log/syslog`
