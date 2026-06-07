@@ -1,6 +1,6 @@
 CONFIG_MODULE_SIG=n
 
-obj-m += helloModule.o
+obj-m += virt2phys.o
 
 all:
 	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
